@@ -16,15 +16,15 @@ export async function getStaticProps() {
       "Sobre - Rodrigo Celvo.",
     tagline: 'Sobre mim.',
     image: 'https://github.com/rodrigocelvo.png',
-    primaryColor: 'purple',
-    secondaryColor: 'pink',
+    primaryColor: 'cyan',
+    secondaryColor: 'green',
   }
 
   return { props: meta }
 }
 
 const yearAnniversary = new Date('2001-03-01');
-const yearExperience = new Date('2021-01-01');
+const yearExperience = new Date('2020-01-01');
 
 function About(props) {
   const { title, description, image } = props
@@ -34,7 +34,7 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Biro"
+            alt="Rodrigo Celvo"
             src="/static/images/rc.jpeg"
             width="640"
             height="640"
@@ -54,7 +54,7 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Sempre fui apaixonado por progragramação e estou estudando há mais ou menos {new Date().getFullYear() - yearExperience.getFullYear()} anos. No momento estou estudando às principais tecnologias: <i>JavaScript, ReactJS e React Native</i>.
+            Sempre fui apaixonado por programação e estou estudando há mais ou menos {new Date().getFullYear() - yearExperience.getFullYear()} anos. No momento estou estudando às principais tecnologias: <i>JavaScript, ReactJS e React Native</i>.
           </Paragraph>
 
           <Paragraph>
@@ -65,31 +65,6 @@ function About(props) {
     )
   }
 
-
-  const getDuration = (startDate, endDate) => {
-    const durationObj = intervalToDuration({
-      start: parseISO(startDate),
-      end: endDate ? parseISO(endDate) : new Date(),
-    })
-
-    let durationStr = ''
-
-    if (durationObj.years > 1) {
-      durationStr = `${durationObj.years} anos `
-    } else if (durationObj.years === 1) {
-      durationStr = `${durationObj.years} ano `
-    }
-
-    durationStr += `${durationObj.months} meses`
-
-    return durationStr
-  }
-
-  const copyBio = e => {
-    e.preventDefault()
-    navigator.clipboard.writeText(description)
-  }
-
   return (
     <>
       <Head>
@@ -98,7 +73,7 @@ function About(props) {
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
         <meta content="https://rodrigocelvo.dev/about" property="og:url" />
-        <meta content={`https://rodrigocelvo.dev${image}`} property="og:image" />
+        <meta content={`https://rodrigocelvo.dev/${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

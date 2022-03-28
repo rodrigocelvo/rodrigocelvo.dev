@@ -16,14 +16,14 @@ const items = [
     projects: [
       {
         title: 'GoBarber',
-        description: 'A proposta do projeto GoBarber é desenvolver uma aplicação completa para barbearias, onde é possível o cadastro de novos barbeiros que possam gerenciar o atendimento de seus clientes de uma forma ágil como marcar dia/horário de visita a barberia.',
+        description: 'GoBarber é um projeto para barbearias, onde é possível o cadastro de novos barbeiros que possam gerenciar o atendimento de seus clientes de uma forma ágil como marcar dia/horário de visita a barberia.',
         url: 'https://github.com/rodrigocelvo/gobarber',
         icon: 'scissors',
         active: true,
       },
       {
         title: 'BeTheHero',
-        description: 'Be the Hero é um projeto feito pela Rocketseat que tem a intenção de ajudar, de maneira financeira às instituições.',
+        description: 'Be the Hero é um projeto que tem a intenção de ajudar de maneira financeira às instituições.',
         url: 'https://github.com/rodrigocelvo/bethehero',
         icon: 'user-heart',
         active: true,
@@ -50,7 +50,7 @@ const items = [
       {
         title: 'Tindev',
         description: 'O Tindev é um clone da aplicação do Tinder, só que feita para desenvolvedores.',
-        url: 'https://github.com/rodrigocelvo/tindev.',
+        url: 'https://github.com/rodrigocelvo/tindev',
         icon: 'fire',
         active: true,
       },

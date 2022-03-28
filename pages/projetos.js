@@ -12,8 +12,8 @@ export async function getStaticProps() {
     title: 'Projetos // Rodrigo Celvo',
     tagline: 'Projetos.',
     image: '#',
-    primaryColor: 'purple',
-    secondaryColor: 'pink',
+    primaryColor: 'red',
+    secondaryColor: 'yellow',
   }
 
   return { props: meta }

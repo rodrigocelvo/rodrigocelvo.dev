@@ -1,26 +1,25 @@
 import { styled } from '../stitches.config'
-import { FaInstagram, FaGithub, FaLinkedin, FaTwitch, FaYoutube, FaTwitter, FaTiktok } from "react-icons/fa";
-import { RiBracesLine, RiRocketLine } from "react-icons/ri";
+import { FiInstagram, FiGithub, FiLinkedin, FiCode } from "react-icons/fi";
 
 export default function Footer() {
   const links = [
     {
       title: 'Instagram',
       url: 'https://instagram.com/rodrigocelvo',
-      icon: <FaInstagram color='#e1306c' />,
+      icon: <FiInstagram color='#e1306c' />,
       color: '#e1306c',
     },
     {
       title: 'GitHub',
       url: 'https://github.com/rodrigocelvo',
-      icon: <FaGithub color='#777' />,
+      icon: <FiGithub color='#777' />,
       color: '#777',
 
     },
     {
       title: 'LinkedIn',
       url: 'https://linkedin.com/in/rodrigocelvo',
-      icon: <FaLinkedin color='#0077b5' />,
+      icon: <FiLinkedin color='#0077b5' />,
       color: '#0077b5',
 
     },
@@ -28,8 +27,8 @@ export default function Footer() {
     {
       title: 'Source',
       url: 'https://github.com/rodrigocelvo/rodrigocelvo.dev',
-      icon: <RiBracesLine color='#44475a' />,
-      color: '#44475a',
+      icon: <FiCode color='#FFF' />,
+      color: '#FFF',
 
     },
   ]

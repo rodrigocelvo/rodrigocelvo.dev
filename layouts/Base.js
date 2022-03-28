@@ -26,7 +26,7 @@ export default function Base({ children }) {
                 backgroundImage: `linear-gradient(
                 135deg,
                 $${primaryColor} 0%,
-                $${secondaryColor} 100%
+                $${secondaryColor} 50%
               );`,
               }}
             >
