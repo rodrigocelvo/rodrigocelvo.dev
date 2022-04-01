@@ -73,7 +73,7 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://rodrigocelvo.dev/projects" property="og:url" />
+        <meta content="https://rodrigocelvo.dev/projetos" property="og:url" />
         <meta content={`${image}`} property="og:image" />
       </Head>
 

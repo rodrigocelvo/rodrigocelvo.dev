@@ -128,7 +128,7 @@ const ButtonHeader = styled('div', {
   cursor: 'pointer',
   cursor: 'pointer',
   height: '34px',
-  padding: '10px 10px 0px 10px',
+  padding: '10px 10px 4px 10px',
   transition: 'background $duration ease-in-out',
   '&:hover': { background: '$hover' },
 })
@@ -152,7 +152,7 @@ const Nav = styled('nav', {
   order: 2,
   flexBasis: '100%',
   '@bp2': { order: 0, flexBasis: 'initial' },
-  '@bp3': { overflowX: 'scroll', overflowY: 'hidden' },
+  '@bp3': { overflowX: 'hidden', overflowY: 'hidden' },
 })
 
 const Aside = styled('div', {

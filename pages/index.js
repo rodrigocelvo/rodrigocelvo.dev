@@ -10,7 +10,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Rodrigo Celvo',
-      description: 'An starting developer ',
+      description: 'Starting developer ',
       image: 'https://github.com/rodrigocelvo.png',
     },
   }

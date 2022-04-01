@@ -58,7 +58,7 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Estou cursando Análise e Desenvolvimento de Sistema na <i><a href="https://www.fecaf.com.br">Fecaf</a></i>,
+            Atualmente, estou cursando Análise e Desenvolvimento de Sistema na <i><a href="https://www.fecaf.com.br">Fecaf</a></i>,
           </Paragraph>
         </Section>
       </Container>
@@ -72,8 +72,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://rodrigocelvo.dev/about" property="og:url" />
-        <meta content={`https://rodrigocelvo.dev/${image}`} property="og:image" />
+        <meta content="https://rodrigocelvo.dev/sobre" property="og:url" />
+        <meta content={`${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

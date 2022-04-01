@@ -66,7 +66,7 @@ export default function CommandBar(props) {
     },
     {
       id: 'github',
-      name: 'Github',
+      name: 'GitHub',
       shortcut: ['f', 'g'],
       keywords: 'go-github',
       section: 'Follow',
