@@ -2,22 +2,19 @@ import { styled } from '../stitches.config'
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { parseISO, format, intervalToDuration } from 'date-fns'
-import { ptBR } from 'date-fns/locale'
-
 
 import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Sobre // Rodrigo Celvo',
+    title: 'Sobre - Rodrigo Celvo',
     description:
-      "Sobre - Rodrigo Celvo.",
+      "Essa página faz uma introdução sobre mim.",
     tagline: 'Sobre mim.',
     image: 'https://github.com/rodrigocelvo.png',
-    primaryColor: 'cyan',
-    secondaryColor: 'green',
+    primaryColor: 'purple',
+    secondaryColor: 'pink',
   }
 
   return { props: meta }
@@ -54,14 +51,18 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Sempre fui apaixonado por programação e estou estudando há mais ou menos {new Date().getFullYear() - yearExperience.getFullYear()} anos. No momento estou estudando às principais tecnologias: <i>JavaScript, ReactJS e React Native</i>.
+            Comecei a me interessar por programação em 2012, quando tive meus primeiros contatos com a web e  especificamente os fóruns, após isso comecei  a fazer formulários em PHP por hobby.
           </Paragraph>
 
           <Paragraph>
-            Atualmente, estou cursando Análise e Desenvolvimento de Sistema na <i><a href="https://www.fecaf.com.br">Fecaf</a></i>,
+            Há {new Date().getFullYear() - yearExperience.getFullYear()} anos conheci o mundo <strong>JavaScript</strong> e fui me aprofundando sendo minha atual stack hoje em dia. No momento estou estudando às principais tecnologias: <strong>Node.js</strong>, <strong>ReactJS</strong> e  <strong>React Native</strong>.
+          </Paragraph>
+
+          <Paragraph>
+            Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na <i><a href="https://www.fecaf.com.br">Fecaf</a></i>,
           </Paragraph>
         </Section>
-      </Container>
+      </Container >
     )
   }
 

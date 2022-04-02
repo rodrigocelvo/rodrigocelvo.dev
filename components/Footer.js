@@ -1,25 +1,25 @@
 import { styled } from '../stitches.config'
-import { FiInstagram, FiGithub, FiLinkedin, FiCode } from "react-icons/fi";
+import { RiInstagramLine, RiGithubLine, RiLinkedinLine, RiCodeLine } from "react-icons/ri";
 
 export default function Footer() {
   const links = [
     {
       title: 'Instagram',
       url: 'https://instagram.com/rodrigocelvo',
-      icon: <FiInstagram color='#e1306c' />,
+      icon: <RiInstagramLine color='#e1306c' />,
       color: '#e1306c',
     },
     {
       title: 'GitHub',
       url: 'https://github.com/rodrigocelvo',
-      icon: <FiGithub color='#777' />,
+      icon: <RiGithubLine color='#777' />,
       color: '#777',
 
     },
     {
       title: 'LinkedIn',
       url: 'https://linkedin.com/in/rodrigocelvo',
-      icon: <FiLinkedin color='#0077b5' />,
+      icon: <RiLinkedinLine color='#0077b5' />,
       color: '#0077b5',
 
     },
@@ -27,7 +27,7 @@ export default function Footer() {
     {
       title: 'Source',
       url: 'https://github.com/rodrigocelvo/rodrigocelvo.dev',
-      icon: <FiCode color='#FFF' />,
+      icon: <RiCodeLine color='#FFF' />,
       color: '#FFF',
 
     },

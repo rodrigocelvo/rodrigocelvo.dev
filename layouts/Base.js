@@ -24,7 +24,7 @@ export default function Base({ children }) {
             <GradientTitle
               css={{
                 backgroundImage: `linear-gradient(
-                135deg,
+                90deg,
                 $${primaryColor} 0%,
                 $${secondaryColor} 50%
               );`,

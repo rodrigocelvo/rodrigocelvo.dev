@@ -10,7 +10,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Rodrigo Celvo',
-      description: 'Starting developer ',
+      description: 'Starting developer',
       image: 'https://github.com/rodrigocelvo.png',
     },
   }
@@ -36,21 +36,6 @@ export default function Index(props) {
           <PostContainer>
             <div>
               <h1
-
-              // style={{
-              //   background: `linear-gradient(
-              //   135deg,
-              //   var(--colors-purple) 0%,
-              //   var(--colors-pink) 100%
-              // )`,
-              //   "background-size": "100",
-              //   "-webkit-background-clip": "text",
-              //   "-moz-background-clip": "text",
-              //   "-webkit-text-fill-color": "transparent",
-              //   "-moz-text-fill-color": "transparent",
-              // }}
-
-
               >{title}</h1>
               <p>
                 <strong>Programador iniciante</strong><br />

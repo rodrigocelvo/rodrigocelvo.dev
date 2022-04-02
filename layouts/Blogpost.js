@@ -1,13 +1,11 @@
 import { styled } from '../stitches.config'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import BlogDate from '../components/BlogDate'
-import BlogViews from '../components/BlogViews'
 import { Post, PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
 
 export default function Blogpost({ children }) {
-  const { title, image, date, views } = children.props
+  const { title, image } = children.props
 
   return (
     <Wrapper>
@@ -20,8 +18,6 @@ export default function Blogpost({ children }) {
               css={image ? { backgroundImage: `url(${image})` } : {}}
             />
             <PostHeaderSubtitle>
-              <BlogDate dateString={date} />
-              <BlogViews views={views} />
             </PostHeaderSubtitle>
           </PostHeader>
         )}
@@ -31,8 +27,6 @@ export default function Blogpost({ children }) {
               <div>
                 <PostContentTitle>{title}</PostContentTitle>
                 <PostContentSubtitle>
-                  <BlogDate dateString={date} />
-                  <BlogViews views={views} />
                 </PostContentSubtitle>
               </div>
             )}

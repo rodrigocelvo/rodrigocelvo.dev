@@ -19,22 +19,6 @@ export default function Navbar() {
       <Header>
         <Link href="/" passHref>
           <ButtonLogo as="a"
-
-          //   style={{
-          //     background: `linear-gradient(
-          //   135deg,
-          //   var(--colors-purple) 0%,
-          //   var(--colors-pink) 100%
-          // )`,
-          //     "background-size": "100",
-          //     "-webkit-background-clip": "text",
-          //     "-moz-background-clip": "text",
-          //     "-webkit-text-fill-color": "transparent",
-          //     "-moz-text-fill-color": "transparent",
-
-          //   }}
-
-
           >R</ButtonLogo>
         </Link>
 
@@ -105,7 +89,6 @@ const Header = styled('header', {
   position: 'absolute',
   top: '0',
   zIndex: 3,
-  marginTop: '13px',
   '@bp2': { marginTop: '0' },
 })
 
@@ -149,9 +132,7 @@ const ButtonLogo = styled(ButtonHeader, {
 const Nav = styled('nav', {
   textAlign: 'center',
   flex: 1,
-  order: 2,
-  flexBasis: '100%',
-  '@bp2': { order: 0, flexBasis: 'initial' },
+  '@bp2': { order: 0, flexBasis: '0' },
   '@bp3': { overflowX: 'hidden', overflowY: 'hidden' },
 })
 

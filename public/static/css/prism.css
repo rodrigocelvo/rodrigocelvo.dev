@@ -17,6 +17,7 @@ html {
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 *::-webkit-scrollbar-track {
@@ -37,6 +38,7 @@ html {
   --hover: #212024;
 
   --cyan: #80ffea;
+  --blue: #6580ff;
   --green: #8aff80;
   --orange: #ffca80;
   --pink: #ff80bf;

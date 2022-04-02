@@ -9,11 +9,11 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projetos // Rodrigo Celvo',
+    title: 'Projetos - Rodrigo Celvo',
     tagline: 'Projetos.',
     image: '#',
-    primaryColor: 'red',
-    secondaryColor: 'yellow',
+    primaryColor: 'green',
+    secondaryColor: 'cyan',
   }
 
   return { props: meta }

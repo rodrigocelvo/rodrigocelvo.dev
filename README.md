@@ -18,13 +18,13 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/birobirobiro/birobirobiro.dev.git
+$ git clone https://github.com/rodrigocelvo/rodrigocelvo.dev.git
 ```
 
 2. Then go to the project's folder:
 
 ```sh
-cd birobirobiro.dev
+cd rodrigocelvo.dev
 ```
 
 3. Install all dependencies:
@@ -41,5 +41,7 @@ yarn dev
 
 ## License
 
-[Biro](https://github.com/birobirobiro/birobirobiro.dev)
+[Biro](https://github.com/birobirobiro/birobirobiro.dev) /
+[Zeno Rocha](https://github.com/zenorocha/zenorocha.com)
+
 [MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha

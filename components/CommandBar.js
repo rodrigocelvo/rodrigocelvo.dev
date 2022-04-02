@@ -12,9 +12,6 @@ import {
   KBarResults,
 } from 'kbar'
 
-import { FaInstagram, FaGithub, FaLinkedin, FaTwitch, FaYoutube, FaTwitter, FaTiktok } from "react-icons/fa";
-import { RiBracesLine, RiRocketLine } from "react-icons/ri";
-
 export default function CommandBar(props) {
   const router = useRouter()
 
@@ -56,11 +53,20 @@ export default function CommandBar(props) {
       icon: <Icon className="ri-lightbulb-line" />,
     },
     {
+      id: 'source',
+      name: 'Source',
+      shortcut: ['g', 's'],
+      keywords: 'go-code',
+      section: 'Ir para',
+      perform: () => window.open('https://github.com/rodrigocelvo/rodrigocelvo.dev', '_blank'),
+      icon: <Icon className="ri-code-line" />,
+    },
+    {
       id: 'instagram',
       name: 'Instagram',
       shortcut: ['f', 'i'],
       keywords: 'go-instagram',
-      section: 'Follow',
+      section: 'Siga-me',
       perform: () => window.open('https://instagram.com/rodrigocelvo', '_blank'),
       icon: <Icon className="ri-instagram-line" />,
     },
@@ -69,7 +75,7 @@ export default function CommandBar(props) {
       name: 'GitHub',
       shortcut: ['f', 'g'],
       keywords: 'go-github',
-      section: 'Follow',
+      section: 'Siga-me',
       perform: () => window.open('https://github.com/rodrigocelvo', '_blank'),
       icon: <Icon className="ri-github-line" />,
     },
@@ -78,7 +84,7 @@ export default function CommandBar(props) {
       name: 'LinkedIn',
       shortcut: ['f', 'l'],
       keywords: 'go-linkedin',
-      section: 'Follow',
+      section: 'Siga-me',
       perform: () => window.open('https://linkedin.com/in/rodrigocelvo', '_blank'),
       icon: <Icon className="ri-linkedin-line" />,
     },
