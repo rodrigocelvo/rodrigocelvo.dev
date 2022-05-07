@@ -3,6 +3,13 @@ const items = [
     year: '2022',
     projects: [
       {
+        title: 'Feedget',
+        description: 'Um componente de Widget para feedback que pode ser utilizado em qualquer projeto.',
+        url: 'https://github.com/rodrigocelvo/feedget',
+        icon: 'dashboard',
+        active: true,
+      },
+      {
         title: 'GamePlay',
         description: 'Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.',
         url: 'https://github.com/rodrigocelvo/gameplay',
