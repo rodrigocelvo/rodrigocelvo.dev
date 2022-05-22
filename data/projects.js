@@ -3,8 +3,15 @@ const items = [
     year: '2022',
     projects: [
       {
+        title: 'GoPizza',
+        description: 'Aplicativo completo para auxiliar Garçons de uma Pizzaria. Neste App, o Administrador cadastra o cardápio da pizza e o Garçom anota o pedido do cliente e acompanha o processo de preparo da Pizza.',
+        url: 'https://github.com/rodrigocelvo/gopizza',
+        icon: 'pie-chart',
+        active: true,
+      },
+      {
         title: 'Feedget',
-        description: 'Um componente de Widget para feedback que pode ser utilizado em qualquer projeto.',
+        description: 'Um componente de widget para feedback que pode ser utilizado em qualquer projeto.',
         url: 'https://github.com/rodrigocelvo/feedget',
         icon: 'dashboard',
         active: true,

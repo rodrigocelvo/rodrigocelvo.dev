@@ -33,8 +33,8 @@ function About(props) {
           <Image
             alt="Rodrigo Celvo"
             src="/static/images/rc.jpeg"
-            width="640"
-            height="640"
+            width="610"
+            height="600"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
             priority
@@ -55,7 +55,7 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Há {new Date().getFullYear() - yearExperience.getFullYear()} anos conheci o mundo <strong>JavaScript</strong> e fui me aprofundando sendo minha atual stack hoje em dia. No momento estou estudando às principais tecnologias: <strong>Node.js</strong>, <strong>ReactJS</strong> e  <strong>React Native</strong>.
+            Há {new Date().getFullYear() - yearExperience.getFullYear()} anos conheci o mundo <strong>JavaScript</strong> sendo minha atual stack hoje em dia e tendo às principais tecnologias: <strong>Node.js</strong>, <strong>ReactJS</strong> e  <strong>React Native</strong>.
           </Paragraph>
 
           <Paragraph>
